@@ -3,445 +3,347 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yemin Nxtike - Portfolio</title>
+    <title>Yemin Nxtike - Web Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/portfolio.png">
+    <link rel="icon" href="https://img.icons8.com/color/96/000000/portfolio.png">
 </head>
 <body>
     <div class="container">
-        <!-- Header Section -->
-        <header>
-            <div class="profile-placeholder">
-                <i class="fas fa-user"></i>
-            </div>
-            
-            <h1>Yemin Nxtike</h1>
-            <p class="tagline">Full Stack Developer & Tech Enthusiast</p>
-            <p class="intro-text">
-                Welcome to my digital portfolio! I specialize in creating beautiful, functional, 
-                and user-friendly web applications. Based in Myanmar, I bring innovative solutions 
-                to local and global clients through modern web technologies.
-            </p>
-            
-            <div class="social-links">
-                <a href="https://github.com/yeminnxtike-tech" target="_blank" class="social-link">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="https://yeminnxtike-tech.github.io/yeminnxtike/" target="_blank" class="social-link">
-                    <i class="fas fa-globe"></i> Live Website
-                </a>
-                <a href="tel:+959444808303" class="social-link">
-                    <i class="fas fa-phone"></i> Call Me
-                </a>
+        <!-- Header -->
+        <header class="header">
+            <div class="profile">
+                <div class="profile-image">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h1>Yemin Nxtike</h1>
+                <p class="title">Web Developer & Digital Creator</p>
+                <p class="description">Building beautiful, functional websites with modern technologies</p>
+                
+                <div class="contact-badges">
+                    <a href="tel:+959444808303" class="badge">
+                        <i class="fas fa-phone"></i> 09-444 808 303
+                    </a>
+                    <a href="tel:+959669999870" class="badge">
+                        <i class="fas fa-mobile"></i> 09-669 999 870
+                    </a>
+                    <a href="mailto:yeminnxtike@gmail.com" class="badge">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
             </div>
         </header>
 
-        <!-- About Me Section -->
-        <section class="section">
-            <h2><i class="fas fa-user"></i> About Me</h2>
-            <p>Hello! I'm <span class="highlight">Yemin Nxtike</span>, a passionate web developer from Myanmar 
-            with expertise in modern web technologies. I specialize in creating responsive, 
-            user-friendly websites and applications that deliver exceptional user experiences.</p>
-            
-            <p>With a strong foundation in both frontend and backend development, I bridge the gap 
-            between design and technical implementation. My goal is to create digital solutions 
-            that not only look great but also perform exceptionally well across all devices.</p>
-            
-            <div class="skills mt-20">
-                <h3>What I Offer:</h3>
-                <div class="skills">
-                    <span class="skill-tag">Web Development</span>
-                    <span class="skill-tag">Responsive Design</span>
-                    <span class="skill-tag">UI/UX Design</span>
-                    <span class="skill-tag">Website Maintenance</span>
-                    <span class="skill-tag">Technical Consulting</span>
-                    <span class="skill-tag">Project Management</span>
+        <!-- About Section -->
+        <section class="section about">
+            <h2><i class="fas fa-user-circle"></i> About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm <strong>Yemin Nxtike</strong>, a passionate web developer based in Myanmar. I specialize in creating responsive, user-friendly websites that deliver exceptional experiences across all devices.</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Custom websites from simple pages to complex applications</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Beautiful designs focused on user experience</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Perfect display on mobile, tablet, and desktop</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section class="section">
-            <h2><i class="fas fa-code"></i> Technical Skills</h2>
-            <div class="skills">
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">React.js</span>
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">Git & GitHub</span>
-                <span class="skill-tag">Web Design</span>
-                <span class="skill-tag">Responsive Design</span>
-                <span class="skill-tag">Bootstrap</span>
-                <span class="skill-tag">REST APIs</span>
-                <span class="skill-tag">MongoDB</span>
-                <span class="skill-tag">Linux/Ubuntu</span>
-                <span class="skill-tag">GitHub Pages</span>
-                <span class="skill-tag">Web Hosting</span>
-                <span class="skill-tag">Technical Support</span>
+        <section class="section skills">
+            <h2><i class="fas fa-cogs"></i> My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">GitHub Pages</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UI/UX</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Responsive</span>
+                        <span class="skill-tag">Wireframing</span>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Projects Section -->
-        <section class="section">
-            <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
-            <div class="project-grid">
+        <section class="section projects">
+            <h2><i class="fas fa-project-diagram"></i> My Projects</h2>
+            <div class="projects-grid">
                 <div class="project-card">
-                    <h3><i class="fas fa-laptop-code"></i> Portfolio Website</h3>
-                    <p>Professional portfolio website with responsive design, contact form, 
-                    and GitHub Pages deployment. Features modern UI/UX principles.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">GitHub Pages</span>
+                    <div class="project-icon">
+                        <i class="fas fa-laptop-code"></i>
                     </div>
-                    <p class="mt-20"><strong>Live:</strong> <a href="https://yeminnxtike-tech.github.io/yeminnxtike/" target="_blank">View Site</a></p>
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive portfolio website built with HTML, CSS, and JavaScript</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://yeminnxtike-tech.github.io/yeminnxtike/" class="project-link">View Live</a>
                 </div>
                 
                 <div class="project-card">
-                    <h3><i class="fas fa-server"></i> Web Hosting Solution</h3>
-                    <p>Configured and deployed static website hosting using GitHub Pages 
-                    with custom domain setup and automated deployment.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">GitHub</span>
-                        <span class="tech-tag">DNS</span>
-                        <span class="tech-tag">Web Hosting</span>
-                        <span class="tech-tag">CI/CD</span>
+                    <div class="project-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
                     </div>
-                    <p class="mt-20"><strong>Status:</strong> <span style="color: #4CAF50;">● Live</span></p>
+                    <h3>GitHub Hosting</h3>
+                    <p>Static website hosting setup using GitHub Pages with custom domain</p>
+                    <div class="project-tech">
+                        <span>GitHub</span>
+                        <span>DNS</span>
+                        <span>Web Hosting</span>
+                    </div>
+                    <a href="https://github.com/yeminnxtike-tech" class="project-link">GitHub Profile</a>
                 </div>
                 
                 <div class="project-card">
-                    <h3><i class="fas fa-mobile-alt"></i> Myanmar Local Projects</h3>
-                    <p>Developing web solutions tailored for Myanmar businesses and individuals, 
-                    focusing on local requirements and user experience.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Localization</span>
-                        <span class="tech-tag">Myanmar Market</span>
-                        <span class="tech-tag">Responsive</span>
-                        <span class="tech-tag">Performance</span>
+                    <div class="project-icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <p class="mt-20"><strong>Availability:</strong> Accepting new projects</p>
+                    <h3>Coming Soon</h3>
+                    <p>Working on exciting new projects with modern web technologies</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#contact" class="project-link">Contact for Details</a>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section">
-            <h2><i class="fas fa-address-book"></i> Contact Information</h2>
+        <section id="contact" class="section contact">
+            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
             
             <div class="contact-container">
                 <div class="contact-info">
-                    <h3>Direct Contact</h3>
-                    <p>I'm available for freelance projects, web development work, and technical consultations. 
-                    Feel free to reach out through any of the following channels:</p>
+                    <h3>Get in Touch</h3>
+                    <p>I'm available for freelance projects, web development work, and consultations.</p>
                     
-                    <ul class="contact-details">
-                        <li>
+                    <div class="contact-details">
+                        <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div>
                                 <strong>Phone Numbers:</strong><br>
                                 <a href="tel:+959444808303">09-444 808 303</a><br>
                                 <a href="tel:+959669999870">09-669 999 870</a>
                             </div>
-                        </li>
-                        <li>
+                        </div>
+                        
+                        <div class="contact-item">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <strong>Email Addresses:</strong><br>
                                 <a href="mailto:yeminnxtike@gmail.com">yeminnxtike@gmail.com</a><br>
                                 <a href="mailto:pagyi.mm@gmail.com">pagyi.mm@gmail.com</a>
                             </div>
-                        </li>
-                        <li>
+                        </div>
+                        
+                        <div class="contact-item">
                             <i class="fab fa-github"></i>
                             <div>
                                 <strong>GitHub:</strong><br>
-                                <a href="https://github.com/yeminnxtike-tech" target="_blank">
-                                    github.com/yeminnxtike-tech
-                                </a>
+                                <a href="https://github.com/yeminnxtike-tech">yeminnxtike-tech</a>
                             </div>
-                        </li>
-                        <li>
+                        </div>
+                        
+                        <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <strong>Location:</strong><br>
                                 Yangon, Myanmar<br>
-                                <small>Available for remote work worldwide</small>
+                                <small>Available for remote work</small>
                             </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <strong>Availability:</strong><br>
-                                Monday - Saturday: 9:00 AM - 6:00 PM<br>
-                                <small>Myanmar Time (GMT+6:30)</small>
-                            </div>
-                        </li>
-                    </ul>
-                    
-                    <div class="mt-20">
-                        <h4>Preferred Contact Methods:</h4>
-                        <div class="skills">
-                            <span class="skill-tag">Phone Call</span>
-                            <span class="skill-tag">Email</span>
-                            <span class="skill-tag">WhatsApp</span>
-                            <span class="skill-tag">Viber</span>
-                            <span class="skill-tag">Telegram</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="contact-form">
-                    <h3>Send Quick Message</h3>
-                    <p>Fill out the form below and I'll get back to you within 24 hours.</p>
-                    
-                    <form id="contactForm">
+                    <h3>Send a Message</h3>
+                    <form id="messageForm">
                         <div class="form-group">
-                            <label for="name"><i class="fas fa-user"></i> Your Name</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            <input type="text" placeholder="Your Name" required>
                         </div>
                         
                         <div class="form-group">
-                            <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
-                            <input type="tel" id="phone" name="phone" placeholder="09-XXX-XXX-XXX">
+                            <input type="email" placeholder="Email Address" required>
                         </div>
                         
                         <div class="form-group">
-                            <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            <input type="tel" placeholder="Phone Number (Optional)">
                         </div>
                         
                         <div class="form-group">
-                            <label for="service"><i class="fas fa-cogs"></i> Service Needed</label>
-                            <select id="service" name="service">
-                                <option value="">Select a service</option>
+                            <select>
+                                <option value="">Select Service</option>
                                 <option value="website">Website Development</option>
                                 <option value="design">Web Design</option>
-                                <option value="consulting">Technical Consulting</option>
-                                <option value="maintenance">Website Maintenance</option>
+                                <option value="consulting">Consultation</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
                         
                         <div class="form-group">
-                            <label for="message"><i class="fas fa-comment"></i> Project Details</label>
-                            <textarea id="message" name="message" placeholder="Please describe your project or inquiry..." required></textarea>
+                            <textarea placeholder="Your Message..." rows="4" required></textarea>
                         </div>
                         
                         <button type="submit" class="submit-btn">
                             <i class="fas fa-paper-plane"></i> Send Message
                         </button>
-                        
-                        <p class="mt-20 text-center" style="font-size: 0.9em; color: #666;">
-                            <i class="fas fa-shield-alt"></i> Your information is secure and will only be used to contact you.
-                        </p>
                     </form>
                 </div>
             </div>
             
-            <!-- Call to Action -->
-            <div class="section mt-20" style="background: linear-gradient(45deg, var(--primary-color), var(--secondary-color)); color: white;">
-                <div style="text-align: center; padding: 30px;">
-                    <h3 style="color: white; margin-bottom: 20px;">
-                        <i class="fas fa-bolt"></i> Need Immediate Assistance?
-                    </h3>
-                    <div style="font-size: 1.2em; margin-bottom: 20px;">
-                        Call me directly: <a href="tel:+959444808303" style="color: white; text-decoration: underline;">09-444 808 303</a>
-                    </div>
-                    <p>I typically respond to calls within 30 minutes during business hours.</p>
+            <!-- Quick Contact -->
+            <div class="quick-contact">
+                <h3><i class="fas fa-bolt"></i> Quick Contact</h3>
+                <div class="quick-buttons">
+                    <a href="tel:+959444808303" class="quick-btn call">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="mailto:yeminnxtike@gmail.com" class="quick-btn email">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://github.com/yeminnxtike-tech" class="quick-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
                 </div>
             </div>
         </section>
-        
-        <!-- Services Section -->
-        <section class="section">
-            <h2><i class="fas fa-concierge-bell"></i> Services Offered</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3><i class="fas fa-laptop"></i> Website Development</h3>
-                    <p>Custom website development from simple landing pages to complex web applications.</p>
-                    <ul style="margin-top: 15px; padding-left: 20px; color: #555;">
-                        <li>Portfolio Websites</li>
-                        <li>Business Websites</li>
-                        <li>E-commerce Sites</li>
-                        <li>Web Applications</li>
-                    </ul>
-                </div>
-                
-                <div class="project-card">
-                    <h3><i class="fas fa-paint-brush"></i> Web Design</h3>
-                    <p>Modern, responsive web design that works perfectly on all devices.</p>
-                    <ul style="margin-top: 15px; padding-left: 20px; color: #555;">
-                        <li>UI/UX Design</li>
+
+        <!-- Services -->
+        <section class="section services">
+            <h2><i class="fas fa-concierge-bell"></i> Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Website Development</h3>
+                    <ul>
+                        <li>Custom Website Design</li>
                         <li>Responsive Layouts</li>
-                        <li>Brand Identity</li>
-                        <li>User Experience</li>
+                        <li>Performance Optimization</li>
                     </ul>
                 </div>
                 
-                <div class="project-card">
-                    <h3><i class="fas fa-tools"></i> Maintenance & Support</h3>
-                    <p>Ongoing website maintenance, updates, and technical support services.</p>
-                    <ul style="margin-top: 15px; padding-left: 20px; color: #555;">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <ul>
+                        <li>User Interface Design</li>
+                        <li>User Experience</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Maintenance</h3>
+                    <ul>
                         <li>Website Updates</li>
                         <li>Bug Fixes</li>
-                        <li>Performance Optimization</li>
                         <li>Technical Support</li>
                     </ul>
                 </div>
             </div>
         </section>
     </div>
-    
+
     <!-- Footer -->
-    <footer>
-        <div style="max-width: 600px; margin: 0 auto;">
-            <p style="font-size: 1.2em; margin-bottom: 20px;">
-                <i class="fas fa-handshake"></i> Let's Work Together
-            </p>
-            <p>&copy; 2024 Yemin Nxtike. All rights reserved.</p>
-            <p>Professional Web Development Services | Based in Yangon, Myanmar</p>
-            <p>Made with <span class="heart">❤️</span> and hosted on GitHub Pages</p>
-            <p style="margin-top: 20px;">
-                <strong>Contact Hours:</strong> 9:00 AM - 6:00 PM (Myanmar Time)<br>
-                <strong>Last updated:</strong> <span id="currentDate"></span>
-            </p>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-code"></i>
+                <span>Yemin Nxtike</span>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="https://github.com/yeminnxtike-tech"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            
+            <div class="footer-info">
+                <p>&copy; 2024 Yemin Nxtike. All rights reserved.</p>
+                <p>Hosted on GitHub Pages | Made with <i class="fas fa-heart"></i></p>
+                <p class="update-time">Last updated: <span id="currentDate"></span></p>
+            </div>
         </div>
     </footer>
 
     <!-- JavaScript -->
     <script>
-        // Set current date in footer
+        // Set current date
         document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', {
             year: 'numeric',
             month: 'long',
             day: 'numeric'
         });
 
-        // Form submission handling
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        // Form submission
+        document.getElementById('messageForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const submitBtn = this.querySelector('.submit-btn');
-            const originalText = submitBtn.innerHTML;
+            const button = this.querySelector('.submit-btn');
+            const originalText = button.innerHTML;
             
-            // Get form data
-            const formData = {
-                name: document.getElementById('name').value,
-                phone: document.getElementById('phone').value,
-                email: document.getElementById('email').value,
-                service: document.getElementById('service').value,
-                message: document.getElementById('message').value
-            };
+            // Show loading
+            button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            button.disabled = true;
             
-            // Show loading state
-            submitBtn.innerHTML = '<div class="loading"></div> Sending...';
-            submitBtn.disabled = true;
-            
-            // Simulate form submission
+            // Simulate sending
             setTimeout(() => {
-                // Create a summary of the message
-                const summary = `
-Thank you for your message, ${formData.name}!
-
-I have received your inquiry regarding ${formData.service || 'web development'}.
-I will contact you at ${formData.phone || formData.email} within 24 hours.
-
-Message summary:
-${formData.message.substring(0, 100)}${formData.message.length > 100 ? '...' : ''}
-
-Best regards,
-Yemin Nxtike
-                `.trim();
-                
-                alert(summary);
-                
-                // Reset form
+                alert('Thank you! Your message has been sent. I will contact you soon.');
                 this.reset();
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                
-                // Scroll to top
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                button.innerHTML = originalText;
+                button.disabled = false;
             }, 1500);
         });
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 20,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Phone number click tracking
-        document.querySelectorAll('a[href^="tel:"]').forEach(link => {
-            link.addEventListener('click', function() {
-                const phoneNumber = this.getAttribute('href').replace('tel:', '');
-                console.log(`Phone call initiated to: ${phoneNumber}`);
-                // Here you could add analytics tracking
-            });
-        });
-
-        // Add animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        // Observe all sections
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(20px)';
-            section.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-            observer.observe(section);
-        });
-
-        // Service select styling
-        const serviceSelect = document.getElementById('service');
-        if (serviceSelect) {
-            serviceSelect.style.cssText = `
-                width: 100%;
-                padding: 14px;
-                border: 2px solid #e0e0e0;
-                border-radius: 8px;
-                font-size: 1em;
-                font-family: inherit;
-                background-color: white;
-                transition: all 0.3s ease;
-            `;
-            
-            serviceSelect.addEventListener('focus', function() {
-                this.style.borderColor = 'var(--primary-color)';
-                this.style.boxShadow = '0 0 0 3px rgba(102, 126, 234, 0.1)';
+        // Add hover effects
+        document.querySelectorAll('.project-card, .service-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px)';
             });
             
-            serviceSelect.addEventListener('blur', function() {
-                this.style.borderColor = '#e0e0e0';
-                this.style.boxShadow = 'none';
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
             });
-        }
+        });
     </script>
 </body>
 </html>
